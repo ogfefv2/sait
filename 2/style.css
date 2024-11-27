@@ -1,4 +1,4 @@
-/* General Reset */
+/* General Reset
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -95,6 +95,199 @@ ul li {
     height: 50px;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #999;
+    font-size: 0.9rem;
+} */
+
+
+
+
+
+
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    color: #4caf50;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #4caf50;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.learn-more:hover {
+    background-color: #388e3c;
+}
+
+.image {
+    position: relative;
+    max-width: 40%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.crypto-icons {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    display: flex;
+    gap: 10px;
+}
+
+.crypto-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Partners Section */
+.partners {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.partner-logos img {
+    max-width: 100px;
+}
+
+/* Audience Section */
+.audience {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #0f0f0f, #121212);
+    text-align: center;
+}
+
+.audience h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #4caf50;
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
