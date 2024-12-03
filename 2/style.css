@@ -453,10 +453,10 @@ h2 {
 
 
 .contact-form {
-    width: 90%; /* Ширина формы на мобильных устройствах */
-    max-width: 700px; /* Максимальная ширина */
-    margin: 20px auto; /* Центрирование формы */
-    background-color: #1e1e1e; /* Тёмный фон */
+    width: 90%; 
+    max-width: 700px; 
+    margin: 20px auto; 
+    background-color: #1e1e1e; 
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #4caf50;
@@ -478,13 +478,13 @@ h2 {
 
 .form-group {
     display: flex;
-    flex-wrap: wrap; /* Позволяет переносить поля */
-    gap: 10px; /* Расстояние между полями */
+    flex-wrap: wrap; 
+    gap: 10px; 
 }
 
 .form-group input {
-    flex: 1; /* Поля растягиваются равномерно */
-    min-width: 100px; /* Минимальная ширина для маленьких экранов */
+    flex: 1; 
+    min-width: 100px; 
     padding: 10px;
     border: none;
     border-radius: 5px;
